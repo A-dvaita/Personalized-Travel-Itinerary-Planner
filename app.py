@@ -219,7 +219,7 @@ def init_state():
     defaults = {"f_dest": "", "f_vibe": "Beach", "f_days": 5, "f_start": date.today() + timedelta(days=30),
                 "f_budget": "Moderate", "f_party": "Couple", "f_trav": 2, "f_pace": "Moderate",
                 "f_interests": ["Food", "History"], "f_veg": False, "f_notes": "",
-                "demo": True, "provider": "Gemini", "api_key": "", "m_gemini": "gemini-2.5-flash",
+                "demo": True, "provider": "Gemini", "api_key": "", "m_gemini": "gemini-3.8-flash",
                 "m_groq": "llama-3.3-70b-versatile", "usd_inr": 88.0, "workspace": uuid.uuid4().hex[:6],
                 "itin": None, "recs": None, "undo": [], "log": [], "active_trip": None, "picked": None, "last_import": None}
     for k, v in defaults.items():
